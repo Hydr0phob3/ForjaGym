@@ -1,0 +1,59 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Archivos de compilación / PyInstaller
+build/
+dist/
+*.spec
+
+# Datos privados y bases de datos locales
+datos/
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+
+# Exportaciones y archivos generados
+*.pdf
+*.xlsx
+*.xls
+*.csv
+exports/
+exportaciones/
+backups/
+backup/
+*.bak
+*.old
+
+# Configuración local / secretos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# Logs y temporales
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
